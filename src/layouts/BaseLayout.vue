@@ -66,7 +66,7 @@
                                 </div>
                             </ion-accordion>
                             <ion-accordion value="third">
-                            <ion-item slot="header" color="light">
+                            <ion-item slot="header" color="red">
                                 <ion-label>Third Accordion</ion-label>
                             </ion-item>
                                 <div slot="content">
@@ -123,7 +123,7 @@
 
 <style scoped>
   ion-menu::part(backdrop) {
-    background-color: rgba(255, 0, 255, 0.5);
+    background-color: rgba(212, 255, 0, 0.5);
   }
 
   ion-menu::part(container) {
