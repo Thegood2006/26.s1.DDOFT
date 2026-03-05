@@ -30,7 +30,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/camara',
     name: 'Camara',
-    component: () => import('@/views/Camara.vue'),
+    component: Camara,
     meta: {
       requiresAuth: false
     }
